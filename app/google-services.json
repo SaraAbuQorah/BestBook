@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "337540230913",
+    "firebase_url": "https://bestbook-49acf-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bestbook-49acf",
+    "storage_bucket": "bestbook-49acf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337540230913:android:d05bb39679978cb03af500",
+        "android_client_info": {
+          "package_name": "com.example.bestbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337540230913-8ei7dvk38ei1mngjpqsrqr3t3hrrnhua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtcizzrj2aPWaRUWNt0w2BrKOb31oj6cs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337540230913-8ei7dvk38ei1mngjpqsrqr3t3hrrnhua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

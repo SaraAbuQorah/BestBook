@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="4dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+        <ImageView
+            android:id="@+id/BookImgCard2"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/dan"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+        <TextView
+            android:id="@+id/BookNameCard2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Angels And Demons "
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:textSize="18dp"
+            android:textColor="@color/blue"
+            tools:ignore="MissingConstraints" />
+                <TextView
+                    android:id="@+id/BookAuthorCard2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Dan Brown "
+                    android:textSize="18dp"
+                    android:layout_marginStart="20dp"
+                    android:textColor="@color/blue2"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/BookPriceCard2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 JD "
+                android:textSize="18dp"
+                android:layout_marginStart="160dp"
+                android:textColor="@color/blue"/>
+            <TextView
+                android:id="@+id/JD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="JD "
+                android:textColor="@color/blue"/></LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
